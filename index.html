@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eibel S Mathew's data science portfolio showcasing skills, projects, and education.">
+    <meta name="keywords" content="data science, portfolio, Eibel S Mathew, machine learning, data visualization, finance">
+    <title>Eibel S Mathew - Data Science Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://www.yourdomain.com">
+    <style>
+        @media print {
+            body {
+                background-color: #fff;
+                color: #000;
+            }
+            .navbar, footer {
+                display: none;
+            }
+            .card {
+                border: 1px solid #000;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">ESM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="parallax d-flex align-items-center">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-5 text-content text-center text-lg-start mb-5 mb-lg-0" data-aos="fade-right">
+                        <h1 class="mb-3">Eibel S Mathew</h1>
+                        <h2 class="mb-4" style="color: var(--text-color);">Data Science Aspirant</h2>
+                        <div class="button-container">
+                            <a href="#contact" class="btn btn-primary btn-lg">Get in touch</a>
+                            <a href="my_resume.pdf" class="btn btn-secondary btn-lg" download>Download Resume</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 image-container text-center" data-aos="fade-left">
+                        <img src="Profile.jpg" alt="Eibel S Mathew" class="img-fluid rounded-circle profile-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4" data-aos="fade-up">About Me</h2>
+                <p class="text-center" data-aos="fade-up" data-aos-delay="200">I am an aspiring data scientist with a keen interest in finance. My journey in this field is driven by a passion for uncovering insights from complex datasets and applying them to real-world financial challenges.I am committed to continuous learning and growth in the rapidly evolving fields of data science and finance. My goal is to leverage data-driven strategies to make meaningful contributions to the financial sector.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="parallax py-5">
+            <div class="container">
+                <h2 class="text-center mb-4" data-aos="fade-up">Skills</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-code fa-3x mb-3"></i>
+                                <h3 class="card-title">Programming</h3>
+                                <p class="card-text">Python, R, SQL</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-brain fa-3x mb-3"></i>
+                                <h3 class="card-title">Machine Learning</h3>
+                                <p class="card-text">Supervised & Unsupervised Learning</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-chart-bar fa-3x mb-3"></i>
+                                <h3 class="card-title">Data Visualization</h3>
+                                <p class="card-text">Matplotlib, Seaborn, Plotly</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4" data-aos="fade-up">Projects</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title">Exoplanet Detection</h3>
+                                <p class="card-text">This project focuses on detecting exoplanets by analyzing light curves from distant stars. 
+                                    By applying the Fast Fourier Transformation (FFT) algorithm, the project identifies periodic signals indicative of 
+                                    orbiting planets, contributing to the ongoing search for habitable worlds beyond our solar system.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title">Natural Disaster Prediction</h3>
+                                <p class="card-text">This project involves creating an app that leverages machine learning algorithms to predict natural 
+                                    disasters like earthquakes, floods, and hurricanes. The app not only forecasts potential disasters but also provides 
+                                    real-time preparedness strategies, ensuring users are well-informed and equipped to handle emergencies.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title">Stock Market Prediction</h3>
+                                <p class="card-text">In this project,I developed a model that uses LLMs to predict stock market trends. By analyzing vast 
+                                    amounts of financial data, news, and social media sentiment, the model generates accurate predictions, helping investors 
+                                    make informed decisions and optimize their portfolios.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5" data-aos="fade-up">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="timeline-content">
+                            <h3>Bacchelor of Technology in Computer Science</h3>
+                            <p class="timeline-date">2024</p>
+                            <p>Kerala Technical University</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="timeline-content">
+                            <h3>Data Science Certification</h3>
+                            <p class="timeline-date">2024</p>
+                            <p>Coursera</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4" data-aos="fade-up">Contact</h2>
+                <form id="contact-form" data-aos="fade-up" data-aos-delay="200" method="POST" action="https://script.google.com/macros/s/AKfycbxHRp39fq13QKcEt7NNlbs2ffFgfVQ95SC-wIQdKosHfngCFBvuEZyRVTRwgsDGA0h9/exec">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="message" name="message" rows="4" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-light py-3">
+        <div class="container text-center">
+            <p style="color: #333;">&copy; 2023 Eibel S Mathew. All rights reserved.</p>
+            <div class="social-links mt-3">
+                <a href="https://www.linkedin.com/in/eibel-s-mathew" target="_blank" rel="noopener noreferrer" class="me-3">
+                    <i class="fab fa-linkedin fa-2x" style="color: #0077B5;"></i>
+                </a>
+                <a href="https://github.com/eibelsmathew" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github fa-2x" style="color: #333;"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
