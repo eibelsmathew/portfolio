@@ -243,6 +243,7 @@ h2 {
     .btn {
         display: inline-block;
         margin-top: 0.5rem;
+        padding: 0.8rem 0.5rem;
     }
 
     /* Adjust navbar for mobile */
